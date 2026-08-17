@@ -162,14 +162,6 @@ p{margin:0 0 1rem}
 .hero-trust small{color:var(--muted);font-size:.9rem}
 .hero-media{position:relative}
 .hero-media .photo{aspect-ratio:4/5;border-radius:var(--radius-lg);box-shadow:var(--shadow-lg);object-fit:cover;width:100%}
-.hero-badge{
-  position:absolute;left:-22px;bottom:34px;z-index:4;background:#fff;border-radius:18px;box-shadow:var(--shadow-lg);
-  padding:16px 20px;display:flex;align-items:center;gap:14px;max-width:250px;
-}
-.hero-badge .ic{width:44px;height:44px;border-radius:12px;background:var(--mint-100);display:flex;align-items:center;justify-content:center;flex:none}
-.hero-badge .ic svg{width:24px;height:24px;stroke:var(--teal-700)}
-.hero-badge strong{display:block;color:var(--ink);font-family:var(--font-head);font-size:1.05rem}
-.hero-badge small{color:var(--muted);font-size:.82rem;line-height:1.4}
 
 /* photo helper w/ graceful fallback
    If the <img> fails it hides itself and this neutral hatched placeholder shows through,
@@ -423,7 +415,6 @@ table.fees tr:hover td{background:var(--aqua-50)}
 /* ============================================================
    CREATIVE LAYER — animation, motion & interactive components
    ============================================================ */
-@keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-16px)}}
 @keyframes floaty2{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-24px) rotate(6deg)}}
 @keyframes spinSlow{to{transform:rotate(360deg)}}
 @keyframes blobMove{0%,100%{border-radius:42% 58% 63% 37%/42% 45% 55% 58%}50%{border-radius:58% 42% 40% 60%/55% 58% 42% 45%}}
@@ -618,7 +609,6 @@ table.fees tr:hover td{background:var(--aqua-50)}
 @media(max-width:560px){
   .stats{grid-template-columns:1fr}
   .footer-grid{grid-template-columns:1fr}
-  .hero-badge{left:8px}
 }
 
 .page{display:none}
@@ -671,7 +661,6 @@ var FMARK='<span class="mark"><svg viewBox="0 0 24 24" fill="none" stroke="curre
       <div class="cap"><b>4.7</b><span>&#9733; RATED</span></div>
     </div>
     <div class="imgwrap" style="aspect-ratio:4/5;border-radius:28px;box-shadow:var(--shadow-lg)"><img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1000&q=80" alt="Friendly dentist caring for a patient" onerror="this.style.display='none'"></div>
-    <div class="hero-badge" style="animation:floaty 6s ease-in-out infinite"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20s-7-4.3-9.3-8.4C1 8.5 2.4 5.2 5.6 5c1.9-.1 3.3 1 4.4 2.4C11.1 6 12.5 4.9 14.4 5c3.2.2 4.6 3.5 2.9 6.6C19 15.7 12 20 12 20z"/></svg></span><span><strong>Gentle care</strong><small>Comfort-focused dentistry for nervous patients</small></span></div>
   </div>
 </div></section>
 
