@@ -500,9 +500,6 @@ table.fees tr:hover td{background:var(--aqua-50)}
   transition:transform .25s var(--ease),box-shadow .25s var(--ease),border-color .25s var(--ease);
 }
 .svc:hover{transform:translateY(-6px);box-shadow:var(--shadow-md);border-color:var(--mint-200)}
-.svc .ic{width:58px;height:58px;border-radius:16px;background:var(--mint-100);display:flex;align-items:center;justify-content:center;margin-bottom:22px;flex:none;transition:transform .3s var(--ease)}
-.svc:hover .ic{transform:rotate(-8deg) scale(1.08)}
-.svc .ic svg{width:30px;height:30px;stroke:var(--teal-700);fill:none;stroke-width:1.7}
 .svc h3{margin-bottom:12px}
 .svc p{color:var(--muted);margin:0}
 .svc .card-link{margin-top:20px}
@@ -510,8 +507,7 @@ table.fees tr:hover td{background:var(--aqua-50)}
 .svc--lead h3{font-size:1.75rem}
 .svc--lead p{font-size:1.05rem;color:var(--body)}
 .svc--side{grid-column:span 5}
-.svc--wide{grid-column:span 12;display:grid;grid-template-columns:auto 1fr;gap:28px;align-items:start;padding:32px 36px}
-.svc--wide .ic{margin-bottom:0}
+.svc--wide{grid-column:span 12;padding:32px 36px}
 .svc--wide h3{font-size:1.45rem}
 .svc--wide p{max-width:70ch}
 
@@ -526,7 +522,6 @@ table.fees tr:hover td{background:var(--aqua-50)}
 .svc-link span{display:block;color:var(--muted);font-size:.92rem;margin-top:6px;line-height:1.5}
 @media(max-width:900px){
   .svc--lead,.svc--side{grid-column:span 12}
-  .svc--wide{grid-template-columns:1fr;gap:18px}
   .svc-links{grid-template-columns:1fr}
   .svc-link{border-right:none;border-bottom:1px solid var(--line)}
   .svc-link:last-child{border-bottom:none}
@@ -684,7 +679,7 @@ var FMARK='<span class="mark"><svg viewBox="0 0 24 24" fill="none" stroke="curre
 
 <section class="section"><div class="container">
   <div class="split">
-    <div class="split-media reveal pop"><div class="imgwrap "><img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=1000&q=80" alt="Welcoming dental practice interior" loading="lazy" onerror="this.style.display='none'"></div></div>
+    <div class="split-media reveal pop"><div class="imgwrap "><img src="https://images.unsplash.com/photo-1704455306251-b4634215d98f?auto=format&fit=crop&w=1000&q=80" alt="Modern, well-equipped dental treatment room" loading="lazy" onerror="this.style.display='none'"></div></div>
     <div class="split-text reveal">
       <span class="eyebrow">Welcome to Avenue Dental Care</span>
       <h2>Dentistry that feels like being looked after by friends</h2>
@@ -704,19 +699,19 @@ var FMARK='<span class="mark"><svg viewBox="0 0 24 24" fill="none" stroke="curre
   <div class="section-head center reveal"><span class="eyebrow">Our Treatments</span>
     <h2>Everything your smile needs</h2>
     <p>From routine check-ups to cosmetic makeovers and facial aesthetics &mdash; explore what we do.</p></div>
-  <div class="bento"><div class="card feat reveal pop"><div class="feat-media"><img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="The treatment room at Avenue Dental Care" loading="lazy" onerror="this.style.display='none'"></div><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5.5C10.5 4 8.5 3.2 6.8 4 4.9 4.9 4 7 4 9.4c0 2.2.6 3.4 1.2 5.6.4 1.5.5 3 .9 4.4.3 1 .8 1.6 1.5 1.6.9 0 1.1-1 1.3-2.2.2-1.2.4-2.8 1.1-3.2.4-.2 1.6-.2 2 0 .7.4.9 2 1.1 3.2.2 1.2.4 2.2 1.3 2.2.7 0 1.2-.6 1.5-1.6.4-1.4.5-2.9.9-4.4.6-2.2 1.2-3.4 1.2-5.6C20 7 19.1 4.9 17.2 4c-1.7-.8-3.7 0-5.2 1.5z"/></svg></div>
+  <div class="bento"><div class="card feat reveal pop"><div class="feat-media"><img src="https://images.unsplash.com/photo-1704455306251-b4634215d98f?auto=format&amp;fit=crop&amp;w=1400&amp;q=80" alt="A modern dental treatment room at Avenue Dental Care" loading="lazy" onerror="this.style.display='none'"></div><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5.5C10.5 4 8.5 3.2 6.8 4 4.9 4.9 4 7 4 9.4c0 2.2.6 3.4 1.2 5.6.4 1.5.5 3 .9 4.4.3 1 .8 1.6 1.5 1.6.9 0 1.1-1 1.3-2.2.2-1.2.4-2.8 1.1-3.2.4-.2 1.6-.2 2 0 .7.4.9 2 1.1 3.2.2 1.2.4 2.2 1.3 2.2.7 0 1.2-.6 1.5-1.6.4-1.4.5-2.9.9-4.4.6-2.2 1.2-3.4 1.2-5.6C20 7 19.1 4.9 17.2 4c-1.7-.8-3.7 0-5.2 1.5z"/></svg></div>
               <h3 style="font-size:1.7rem">Everything your smile needs, under one roof</h3>
               <p>From gentle check-ups to cosmetic makeovers, orthodontics and facial aesthetics &mdash; all delivered by one caring team in Gosport.</p>
               <a class="card-link" href="#treatments">Explore treatments <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div><div class="card glow reveal" onmousemove="this.style.setProperty('--mx',event.offsetX+'px');this.style.setProperty('--my',event.offsetY+'px')">
-              <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 4.5-3 7.9-7 9-4-1.1-7-4.5-7-9V6l7-3z"/><path d="M9 12l2 2 4-4"/></svg></div><h3>Preventative Care</h3><p>Hygiene visits, gum health, decay detection and mouth cancer screening to protect your smile for life.</p>
+              <h3>Preventative Care</h3><p>Hygiene visits, gum health, decay detection and mouth cancer screening to protect your smile for life.</p>
               <a class="card-link" href="#treatments">Learn more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div><div class="card glow reveal" onmousemove="this.style.setProperty('--mx',event.offsetX+'px');this.style.setProperty('--my',event.offsetY+'px')">
-              <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.8 4.9L18.5 9l-4.7 1.8L12 15l-1.8-4.2L5.5 9l4.7-1.1L12 3z"/><path d="M18 14l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8.8-2z"/></svg></div><h3>Cosmetic Dentistry</h3><p>Teeth whitening, composite bonding and smile makeovers tailored to you.</p>
+              <h3>Cosmetic Dentistry</h3><p>Teeth whitening, composite bonding and smile makeovers tailored to you.</p>
               <a class="card-link" href="#treatments">Learn more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div><div class="card glow reveal" onmousemove="this.style.setProperty('--mx',event.offsetX+'px');this.style.setProperty('--my',event.offsetY+'px')">
-              <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="9" width="18" height="6" rx="2"/><path d="M7 9v6M11 9v6M15 9v6"/></svg></div><h3>Short-Term Orthodontics</h3><p>Discreet, fast options like the Inman Aligner and ClearSmile to straighten front teeth.</p>
+              <h3>Short-Term Orthodontics</h3><p>Discreet, fast options like the Inman Aligner and ClearSmile to straighten front teeth.</p>
               <a class="card-link" href="#ortho">Learn more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div><div class="card glow reveal" onmousemove="this.style.setProperty('--mx',event.offsetX+'px');this.style.setProperty('--my',event.offsetY+'px')">
-              <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 00-5.3 5.3L4 17v3h3l5.4-5.4a4 4 0 005.3-5.3l-2.5 2.5-2.1-.4-.4-2.1 2.5-2.5z"/></svg></div><h3>Restorative Dentistry</h3><p>Crowns, bridges, dentures and repairs to restore function and confidence.</p>
+              <h3>Restorative Dentistry</h3><p>Crowns, bridges, dentures and repairs to restore function and confidence.</p>
               <a class="card-link" href="#treatments">Learn more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div><div class="card glow reveal" onmousemove="this.style.setProperty('--mx',event.offsetX+'px');this.style.setProperty('--my',event.offsetY+'px')">
-              <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8.5 10h.01M15.5 10h.01M8.5 15c1 1 2 1.5 3.5 1.5s2.5-.5 3.5-1.5"/></svg></div><h3>Facial Aesthetics</h3><p>Anti-wrinkle treatments and dermal fillers with a free consultation.</p>
+              <h3>Facial Aesthetics</h3><p>Anti-wrinkle treatments and dermal fillers with a free consultation.</p>
               <a class="card-link" href="#facial">Learn more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div></div>
 </div></section>
 
@@ -828,13 +823,13 @@ var FMARK='<span class="mark"><svg viewBox="0 0 24 24" fill="none" stroke="curre
 <section class="section bg-aqua"><div class="container">
   <div class="section-head center reveal"><span class="eyebrow">Patient information</span><h2>Helpful things to know</h2></div>
   <div class="grid grid-2">
-    <div class="card reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9a6 6 0 1112 0c0 5 2 6 2 6H4s2-1 2-6M10 20a2 2 0 004 0"/></svg></div><h3>Appointment reminders</h3>
+    <div class="card reveal"><h3>Appointment reminders</h3>
       <p>We send email and SMS reminders two working days before your appointment, so it&rsquo;s easy to keep track of your visits.</p></div>
-    <div class="card reveal" id="emergency"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div><h3>Dental emergencies</h3>
+    <div class="card reveal" id="emergency"><h3>Dental emergencies</h3>
       <p>In pain? Please contact us before 10am on weekdays, or leave an answerphone message. We aim to offer an appointment within 24 hours. Outside of our hours, call the NHS Dental Emergency Helpline on <strong>111</strong> or visit hampshiredentalhelpline.nhs.uk.</p></div>
-    <div class="card reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg></div><h3>Cancellations</h3>
+    <div class="card reveal"><h3>Cancellations</h3>
       <p>We kindly ask for at least 24 hours&rsquo; notice to cancel or change an appointment. Charges may apply for short-notice cancellations and missed appointments.</p></div>
-    <div class="card reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 4.5-3 7.9-7 9-4-1.1-7-4.5-7-9V6l7-3z"/><path d="M9 12l2 2 4-4"/></svg></div><h3>Guarantees &amp; standards</h3>
+    <div class="card reveal"><h3>Guarantees &amp; standards</h3>
       <p>We offer extended guarantees on treatments and are registered with the General Dental Council (GDC) and the Care Quality Commission (CQC).</p></div>
   </div>
 </div></section>
@@ -898,23 +893,18 @@ var FMARK='<span class="mark"><svg viewBox="0 0 24 24" fill="none" stroke="curre
     <p>Explore our core dental services below. For orthodontics and facial aesthetics, see the dedicated pages.</p></div>
   <div class="svc-grid">
     <div class="svc svc--lead reveal">
-      <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 4.5-3 7.9-7 9-4-1.1-7-4.5-7-9V6l7-3z"/><path d="M9 12l2 2 4-4"/></svg></div>
       <h3>Preventative Dentistry</h3>
       <p>The heart of what we do. Regular check-ups, dental hygiene appointments and gum disease management keep small problems from becoming big ones, supported by decay detection, mouth cancer screening and treatment for bad breath. It is the routine care that protects your smile for the long term.</p>
       <a class="card-link" href="#plan">Covered by our Practice Plan <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
     </div>
     <div class="svc svc--side reveal">
-      <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.8 4.9L18.5 9l-4.7 1.8L12 15l-1.8-4.2L5.5 9l4.7-1.1L12 3z"/><path d="M18 14l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8.8-2z"/></svg></div>
       <h3>Cosmetic Dentistry</h3>
       <p>Subtle, natural-looking enhancements that bring out the best in your smile &mdash; tooth whitening, composite bonding and full smile makeovers, planned around what suits you.</p>
       <a class="card-link" href="#fees">See guide fees <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
     </div>
     <div class="svc svc--wide reveal">
-      <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5.5C10.5 4 8.5 3.2 6.8 4 4.9 4.9 4 7 4 9.4c0 2.2.6 3.4 1.2 5.6.4 1.5.5 3 .9 4.4.3 1 .8 1.6 1.5 1.6.9 0 1.1-1 1.3-2.2.2-1.2.4-2.8 1.1-3.2.4-.2 1.6-.2 2 0 .7.4.9 2 1.1 3.2.2 1.2.4 2.2 1.3 2.2.7 0 1.2-.6 1.5-1.6.4-1.4.5-2.9.9-4.4.6-2.2 1.2-3.4 1.2-5.6C20 7 19.1 4.9 17.2 4c-1.7-.8-3.7 0-5.2 1.5z"/></svg></div>
-      <div>
-        <h3>General Dentistry</h3>
-        <p>The everyday dentistry most people need most of the time, delivered gently and without rush &mdash; tooth-coloured fillings, root canal treatment, extractions and oral surgery. You will always have a clear written plan before any work begins.</p>
-      </div>
+      <h3>General Dentistry</h3>
+      <p>The everyday dentistry most people need most of the time, delivered gently and without rush &mdash; tooth-coloured fillings, root canal treatment, extractions and oral surgery. You will always have a clear written plan before any work begins.</p>
     </div>
     <div class="svc-links reveal">
       <a class="svc-link" href="#contact">
@@ -983,9 +973,9 @@ var FMARK='<span class="mark"><svg viewBox="0 0 24 24" fill="none" stroke="curre
 
 <section class="section bg-aqua"><div class="container">
   <div class="grid grid-2">
-    <div class="card reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="9" width="18" height="6" rx="2"/><path d="M7 9v6M11 9v6M15 9v6"/></svg></div><h3>Anterior Alignment Orthodontics (AAO)</h3>
+    <div class="card reveal"><h3>Anterior Alignment Orthodontics (AAO)</h3>
       <p>A modified brace system with incredibly fast treatment times &mdash; a great way to straighten your teeth for a special occasion. Clear brackets and tooth-coloured wires use low force to move the teeth gently, making treatment more comfortable, while focusing on aligning only the teeth seen when you smile.</p></div>
-    <div class="card reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5.5C10.5 4 8.5 3.2 6.8 4 4.9 4.9 4 7 4 9.4c0 2.2.6 3.4 1.2 5.6.4 1.5.5 3 .9 4.4.3 1 .8 1.6 1.5 1.6.9 0 1.1-1 1.3-2.2.2-1.2.4-2.8 1.1-3.2.4-.2 1.6-.2 2 0 .7.4.9 2 1.1 3.2.2 1.2.4 2.2 1.3 2.2.7 0 1.2-.6 1.5-1.6.4-1.4.5-2.9.9-4.4.6-2.2 1.2-3.4 1.2-5.6C20 7 19.1 4.9 17.2 4c-1.7-.8-3.7 0-5.2 1.5z"/></svg></div><h3>Inman Aligner</h3>
+    <div class="card reveal"><h3>Inman Aligner</h3>
       <p>A simple removable appliance used to align front teeth quickly and safely. Nickel-titanium coil springs gently oppose each other, guiding the teeth into their new position. Worn 16&ndash;20 hours a day, most cases complete within 6&ndash;18 weeks.</p></div>
   </div>
 </div></section>
@@ -993,10 +983,10 @@ var FMARK='<span class="mark"><svg viewBox="0 0 24 24" fill="none" stroke="curre
 <section class="section"><div class="container">
   <div class="section-head center reveal"><span class="eyebrow">Your journey</span><h2>What to expect</h2></div>
   <div class="grid grid-4">
-    <div class="card reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg></div><h3>1. Free consultation</h3><p>We assess whether short-term orthodontics is right for you.</p></div>
-    <div class="card reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5.5C10.5 4 8.5 3.2 6.8 4 4.9 4.9 4 7 4 9.4c0 2.2.6 3.4 1.2 5.6.4 1.5.5 3 .9 4.4.3 1 .8 1.6 1.5 1.6.9 0 1.1-1 1.3-2.2.2-1.2.4-2.8 1.1-3.2.4-.2 1.6-.2 2 0 .7.4.9 2 1.1 3.2.2 1.2.4 2.2 1.3 2.2.7 0 1.2-.6 1.5-1.6.4-1.4.5-2.9.9-4.4.6-2.2 1.2-3.4 1.2-5.6C20 7 19.1 4.9 17.2 4c-1.7-.8-3.7 0-5.2 1.5z"/></svg></div><h3>2. Impressions</h3><p>Custom impressions are taken and your appliance is made.</p></div>
-    <div class="card reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="9" width="18" height="6" rx="2"/><path d="M7 9v6M11 9v6M15 9v6"/></svg></div><h3>3. Fitting &amp; check-ups</h3><p>Initial fitting, then check-ups every 2&ndash;3 weeks as your teeth align.</p></div>
-    <div class="card reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 4.5-3 7.9-7 9-4-1.1-7-4.5-7-9V6l7-3z"/><path d="M9 12l2 2 4-4"/></svg></div><h3>4. Retention</h3><p>Lifetime retention with a bonded or Essix retainer keeps your smile in place.</p></div>
+    <div class="card reveal"><h3>1. Free consultation</h3><p>We assess whether short-term orthodontics is right for you.</p></div>
+    <div class="card reveal"><h3>2. Impressions</h3><p>Custom impressions are taken and your appliance is made.</p></div>
+    <div class="card reveal"><h3>3. Fitting &amp; check-ups</h3><p>Initial fitting, then check-ups every 2&ndash;3 weeks as your teeth align.</p></div>
+    <div class="card reveal"><h3>4. Retention</h3><p>Lifetime retention with a bonded or Essix retainer keeps your smile in place.</p></div>
   </div>
   <div class="note reveal" style="margin-top:36px"><strong>Guide prices:</strong> Inman Aligner from &pound;1,899 &middot; ClearSmile Brace (dual arch) from &pound;2,950. You&rsquo;ll receive a written treatment plan after your consultation.</div>
 </div></section>
@@ -1059,10 +1049,10 @@ var FMARK='<span class="mark"><svg viewBox="0 0 24 24" fill="none" stroke="curre
 
 <section class="section bg-aqua"><div class="container">
   <div class="grid grid-2">
-    <div class="card reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.8 4.9L18.5 9l-4.7 1.8L12 15l-1.8-4.2L5.5 9l4.7-1.1L12 3z"/><path d="M18 14l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8.8-2z"/></svg></div><h3>Botulinum Toxin (BTX)</h3>
+    <div class="card reveal"><h3>Botulinum Toxin (BTX)</h3>
       <p>Used to improve frown lines, crow&rsquo;s feet and forehead lines, as well as for facial revitalisation. A purified protein is injected to block the transmission of nerve impulses to the facial muscles, softening wrinkles for a smoother, fresher appearance.</p>
       <p style="margin-top:12px;color:var(--teal-800);font-weight:700">From &pound;150</p></div>
-    <div class="card reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8.5 10h.01M15.5 10h.01M8.5 15c1 1 2 1.5 3.5 1.5s2.5-.5 3.5-1.5"/></svg></div><h3>Dermal Fillers (Restylane)</h3>
+    <div class="card reveal"><h3>Dermal Fillers (Restylane)</h3>
       <p>Used to address nasolabial folds, lip contour and facial revitalisation, as well as d&eacute;colletage and hand revitalisation. A crystal-clear gel form of hyaluronic acid hydrates the skin and adds natural-looking volume.</p>
       <p style="margin-top:12px;color:var(--teal-800);font-weight:700">From &pound;285</p></div>
   </div>
@@ -1111,9 +1101,9 @@ var FMARK='<span class="mark"><svg viewBox="0 0 24 24" fill="none" stroke="curre
 
 <section class="section bg-aqua"><div class="container">
   <div class="grid grid-2">
-    <div class="card reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg></div><h3>What&rsquo;s included</h3>
+    <div class="card reveal"><h3>What&rsquo;s included</h3>
       <ul><li>2 routine 10-minute examination appointments, including clinical examination, screening for oral cancer and routine intraoral x-rays (usually a set of 2) where clinically necessary</li><li>2 &times; 20-minute hygiene appointments</li><li>Oral hygiene instruction and preventative guidance</li><li>Complete treatment planning</li><li>20% off assessment of emergencies and dental pain, with any temporary treatment required</li><li>20% discount on additional hygiene visits</li><li>20% discount on restorative work (fillings, root canal treatments, desensitising treatments)</li><li>20% discount on surgical procedures including extractions (exclusions apply) and soft tissue surgery</li><li>10% discount on laboratory-based prosthetic work (crowns, bridges, dentures, mouth guards)</li><li>Worldwide Accident &amp; Emergency insurance</li></ul></div>
-    <div class="card reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg></div><h3>What&rsquo;s not covered</h3>
+    <div class="card reveal"><h3>What&rsquo;s not covered</h3>
       <ul><li>Short-term orthodontics</li><li>Facial aesthetics</li><li>Purely cosmetic treatments (veneers/crowns, composite bonding, whitening)</li><li>Treatment at other practices</li><li>Pharmaceuticals and prescription fees</li><li>Wisdom tooth extraction</li><li>Specialist referrals</li></ul></div>
   </div>
   <div class="note reveal" style="margin-top:34px"><strong>Worldwide Accident &amp; Emergency insurance:</strong> provides emergency treatment access within the UK (40 miles from the practice) and internationally, a hospital inpatient cash benefit, and a &pound;2,500 payment on diagnosis of oral cancer.</div>
